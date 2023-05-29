@@ -1,6 +1,7 @@
-import React from 'react'
-import EducationImg from '/src/img/stickers/grafico-de-barras.png';
-import '/src/styles/css/styles.css'
+// @ts-nocheck
+import React from "react"
+import EducationImg from "/src/public/img/icons/grafico-de-barras.png";
+import "/src/public/css/styles.css";
 
 const Education = () => {
     return (

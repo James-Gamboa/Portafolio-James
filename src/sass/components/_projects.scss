@@ -1,0 +1,38 @@
+.projects-grid-container {
+display: grid;
+grid-template-columns: repeat(1);
+gap: 2em;
+padding: 2em;
+}
+
+.project-card {
+background-color: var(--bg-color);
+box-shadow: 1px 1px 2px $border-color;
+border-radius: .7rem;
+will-change: transform;
+transition: transform .3s;
+}
+
+.project-card .card-banner {
+border-radius: .7rem;
+}
+
+.project-card:hover {
+transform: scale(1.1);
+}
+
+.card-content {
+color: var(--letter-color);
+display: flex;
+flex-direction: column;
+padding: .5em;
+max-height: 220px;
+}
+
+.card-content .title {
+    padding: 0;
+}
+
+.card-content .description {
+    overflow: hidden;
+}

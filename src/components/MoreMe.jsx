@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/css/styles.css";
+import "/src/public/css/styles.css";
 
 const MoreMe = () => {
   return (

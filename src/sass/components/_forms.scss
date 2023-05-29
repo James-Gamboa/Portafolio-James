@@ -1,0 +1,29 @@
+.form-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 3rem;
+}
+
+.form-item input {
+margin: .6rem;
+padding: .5em;
+border-radius: .9rem;
+border: none;
+transition: filter .3s;
+}
+
+.form-item input:focus {
+filter: drop-shadow(0 0 .1rem $border-color);
+}
+
+.form-item .button {
+font-size: medium;
+justify-content: center;
+width: 100%;
+}
+
+.form-item .Large-Input {
+width: 100%;
+}

@@ -183,8 +183,6 @@ h3 {
 .main-section-img img {
   width: 20rem;
   border-radius: 50%; }
-  .main-section-img img:hover {
-    animation: img-a 1.3s infinite alternate; }
 
 @keyframes img-a {
   to {

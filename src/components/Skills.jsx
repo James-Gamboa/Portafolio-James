@@ -1,11 +1,12 @@
-import React from 'react'
-import HTMLImg from '/src/img/tec/html-5.png';
-import CssImg from '/src/img/tec/css-3.png';
-import JsImg from '/src/img/tec/js.png';
-import MongoImg from '/src/img/tec/mongo.png';
-import GitImg from '/src/img/tec/git.png';
-import SqlImg from '/src/img/tec/sql-server.png';
-import ReactImg from '/src/img/tec/react.png';
+// @ts-nocheck
+import React from "react"
+import HTMLImg from "/src/public/img/icons-language/html.png";
+import CssImg from "/src/public/img/icons-language/css.png";
+import JsImg from "/src/public/img/icons-language/javascript.png";
+import MongoImg from "/src/public/img/icons-language/mongo.png";
+import GitImg from "/src/public/img/icons-language/git.png";
+import SqlImg from "/src/public/img/icons-language/sql-server.png";
+import ReactImg from "/src/public/img/icons-language/react.png";
 
 const Skills = () => {
     return(
@@ -19,7 +20,7 @@ const Skills = () => {
                     </p>
                 </div>
             </div>
-            <div className='SkillsGrid'>
+            <div className="SkillsGrid">
                 <img src={HTMLImg} />
                 <img src={CssImg} />
                 <img src={JsImg} />

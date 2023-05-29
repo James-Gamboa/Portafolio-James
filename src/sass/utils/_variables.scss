@@ -41,7 +41,7 @@ $breakpoints: (
     }
 }
 
-/* Media Query para adaptar el color al mismo del sistema */
+// Media Query para adaptar el color al mismo del sistema 
 @media (prefers-color-scheme :dark) {
     $border-color: rgba(0, 0, 0, 0.795);
     :root {

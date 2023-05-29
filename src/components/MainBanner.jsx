@@ -1,6 +1,7 @@
-import React from 'react'
-import BannerImg from '/src/img/profile-icons/photo-profile.jpeg';
-import '/src/styles/css/styles.css'
+// @ts-nocheck
+import React from "react"
+import BannerImg from "/src/public/img/profile-icons/photo-profile.jpeg";
+import "/src/public/css/styles.css";
 
 const MainBanner = () => {
     return (

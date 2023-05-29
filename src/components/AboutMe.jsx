@@ -1,6 +1,7 @@
+// @ts-nocheck
 import React from "react";
-import HelloImg from "/src/img/profile-icons/me.png";
-import "/src/styles/css/styles.css";
+import HelloImg from "/src/public/img/profile-icons/me.png";
+import "/src/public/css/styles.css";
 
 const AboutMe = () => {
   return (

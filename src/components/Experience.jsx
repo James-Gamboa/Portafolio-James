@@ -1,6 +1,7 @@
+// @ts-nocheck
 import React from "react";
-import ExperienceImg from "/src/img/stickers/oficina.png";
-import "/src/styles/css/styles.css";
+import ExperienceImg from "/src/public/img/icons/oficina.png";
+import "/src/public/css/styles.css";
 
 const Experience = () => {
   return (

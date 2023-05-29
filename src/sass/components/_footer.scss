@@ -1,0 +1,38 @@
+.main-footer {
+overflow: hidden;
+width: 100%;
+display: flex;
+margin-top: auto;
+background-color: var(--primary);
+height: $header-height;
+color: lighten($text-color, 90);
+justify-content: center;
+align-items: center;
+}
+
+.main-footer i {
+font-size: 1.3em;
+margin-right: 1.2rem;
+color: lighten($text-color, 90);
+transition: font-size 0.3s;
+}
+
+.main-footer i:hover{
+font-size: 2em;
+}
+
+.main-footer p,
+.main-footer span {
+padding-right: 1rem;
+}
+.main-footer span {
+    cursor: pointer;
+}
+
+.main-footer p {
+display: none;
+
+@include rwd(l) {
+display: flex;
+}
+}

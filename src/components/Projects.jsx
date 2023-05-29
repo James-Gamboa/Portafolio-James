@@ -1,13 +1,14 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import '/src/styles/css/styles.css'
+// @ts-nocheck
+import React from "react"
+import ProjectCard from "./ProjectCard"
+import "/src/public/css/styles.css";
 // Importacion de Imagenes
-import P1Img from '/src/img/projects/cocacola-page.png';
-import P2Img from '/src/img/projects/pokedex-page.png';
-import P3Img from '/src/img/projects/testomonios-freecodecamp.png';
-import P4Img from '/src/img/projects/netflix-page.png';
-import P5Img from '/src/img/projects/conectaCuatro-page.png';
-import P6Img from '/src/img/projects/loopstudios-page.png';
+import P1Img from "/src/public/img/projects/cocacola-page.png";
+import P2Img from "/src/public/img/projects/pokedex-page.png";
+import P3Img from "/src/public/img/projects/testomonios-freecodecamp.png";
+import P4Img from "/src/public/img/projects/netflix-page.png";
+import P5Img from "/src/public/img/projects/conectaCuatro-page.png";
+import P6Img from "/src/public/img/projects/loopstudios-page.png";
 
 const projects = [
     {   
