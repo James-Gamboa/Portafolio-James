@@ -21,12 +21,12 @@ transition: font-size 0.3s;
 font-size: 2em;
 }
 
+.main-footer span {
+    cursor: pointer;
+}
 .main-footer p,
 .main-footer span {
 padding-right: 1rem;
-}
-.main-footer span {
-    cursor: pointer;
 }
 
 .main-footer p {
