@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react"
+import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider,} from "react-router-dom";
-import HomePage from './HomePage'
-import ExperiencePage from './ExperiencePage';
-import ProjectsPage from './ProjectsPage'
-import SkillsPage from './SkillsPage'
-import RenderPage from './RenderPage'
+import HomePage from "./HomePage"
+import ExperiencePage from "./ExperiencePage";
+import ProjectsPage from "./ProjectsPage"
+import SkillsPage from "./SkillsPage"
+import RenderPage from "./RenderPage"
 
 const router = createBrowserRouter([
   {
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
   <RouterProvider router={router} />
   </React.StrictMode>,

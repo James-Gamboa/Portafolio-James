@@ -2,6 +2,7 @@
 import React from "react"
 import ProjectCard from "./ProjectCard"
 import "/src/public/css/styles.css";
+
 // Importacion de Imagenes
 import P1Img from "/src/public/img/projects/cocacola-page.png";
 import P2Img from "/src/public/img/projects/pokedex-page.png";

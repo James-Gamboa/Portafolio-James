@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from './components/Header'
-import MainFooter from './components/Footer'
+import React from "react"
+import Header from "./components/Header"
+import MainFooter from "./components/Footer"
 
 const RenderPage = () => {
     return(

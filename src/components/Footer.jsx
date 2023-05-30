@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import "/src/public/css/styles.css";
 
 const MainFooter = () => {
