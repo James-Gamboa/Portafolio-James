@@ -16,7 +16,7 @@ const projects = [
         "id": 1,
         "image": P1Img,
         "title": "Coca Cola Landing Page",
-        "description": "Proyecto creado como practica en un Wordcamp",
+        "description": "Proyecto creado como practica en un Bootcamp ",
         "link": "https://james-gamboa.github.io/Practical-coca-cola-page/"
     },
     {
