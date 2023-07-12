@@ -1,17 +1,16 @@
 .button {
 text-align: center;
-padding: 1em;
+padding: 1em; 
 margin-bottom: 1rem;
-border-radius: 0.3em;
+border-radius: .3em;
 border: none;
 background-color: var(--primary);
 color: var(--button-color);
 will-change: filter background-color;
-transition: filter 0.3s, background-color 0.3s;
+transition: filter .3s, background-color .3s;
+  &:hover{
+    color: var(--letter-color);
+    background-color: var(--bg-color);
+    filter: drop-shadow(0 0 .2em $border-color);
 }
-
-.button:hover {
-color: var(--letter-color);
-background-color: var(--bg-color);
-filter: drop-shadow(0 0 0.2em $border-color);
 }

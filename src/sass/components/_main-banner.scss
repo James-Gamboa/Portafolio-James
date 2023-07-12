@@ -7,37 +7,29 @@ justify-content: center;
 align-items: center;
 background-color: var(--bg-color2);
 flex-direction: column;
-}
-
-.main-section-banner p {
-padding-top: 5rem;
-}
-
-@include rwd(l) {
-    .main-section-banner {
+& p {
+        padding-top: 5rem;    }
+    @include rwd(l){
         flex-direction: row;
     }
 }
 
-.main-section-content {
+.main-section-content{
     font-size: 1.65rem;
     padding-right: 1em;
     padding-left: 1em;
     text-align: center;
     text-shadow: 1px 1px 2px $border-color;
     color: var(--letter-color);
-}
-
-@include rwd(l) {
-    .main-section-content {
+    @include rwd(l){
         font-size: 2rem;
         padding-right: 7rem;
     }
 }
 
-.main-section-img img {
-    width: 20rem;
-    border-radius: 50%;
+.main-section-img img{
+width: 20rem;
+border-radius: 50%;
 }
 
 @keyframes img-a {

@@ -5,7 +5,7 @@ import CssImg from "/src/public/img/icons-language/css.png";
 import JsImg from "/src/public/img/icons-language/javascript.png";
 import MongoImg from "/src/public/img/icons-language/mongo.png";
 import GitImg from "/src/public/img/icons-language/git.png";
-import SqlImg from "/src/public/img/icons-language/sql-server.png";
+// import SqlImg from "/src/public/img/icons-language/sql-server.png";
 import ReactImg from "/src/public/img/icons-language/react.png";
 
 const Skills = () => {
@@ -26,7 +26,7 @@ const Skills = () => {
                 <img src={JsImg} />
                 <img src={MongoImg} />
                 <img src={GitImg} />
-                <img src={SqlImg} />
+                {/* <img src={SqlImg} /> */}
                 <img src={ReactImg} />
             </div>
         </section>

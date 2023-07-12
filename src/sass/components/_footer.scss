@@ -5,34 +5,25 @@ display: flex;
 margin-top: auto;
 background-color: var(--primary);
 height: $header-height;
-color: lighten($text-color, 90);
+color: lighten($text-color,90);
 justify-content: center;
 align-items: center;
-}
-
-.main-footer i {
-font-size: 1.3em;
-margin-right: 1.2rem;
-color: lighten($text-color, 90);
-transition: font-size 0.3s;
-}
-
-.main-footer i:hover{
-font-size: 2em;
-}
-
-.main-footer span {
-    cursor: pointer;
-}
-.main-footer p,
-.main-footer span {
-padding-right: 1rem;
-}
-
-.main-footer p {
-display: none;
-
-@include rwd(l) {
-display: flex;
-}
+    & i {
+        font-size: 1.3em;
+        margin-right: 1.2rem;
+        color: lighten($text-color,90);
+        transition: font-size .3s;
+        &:hover {
+            font-size: 2em;
+        }
+    }
+    & p,span {
+        padding-right: 1rem;
+    }
+    & p{
+        display: none;
+        @include rwd(l){
+            display: flex;
+        }
+    }
 }
