@@ -7,9 +7,11 @@ import "/src/public/css/styles.css";
 import P1Img from "/src/public/img/projects/cocacola-page.png";
 import P2Img from "/src/public/img/projects/pokedex-page.png";
 import P3Img from "/src/public/img/projects/testomonios-freecodecamp.png";
-import P4Img from "/src/public/img/projects/netflix-page.png";
+import P4Img from "/src/public/img/projects/news-homepage-page.jpg";
 import P5Img from "/src/public/img/projects/conectaCuatro-page.png";
 import P6Img from "/src/public/img/projects/loopstudios-page.png";
+import P7Img from "/src/public/img/projects/events-site-page.png";
+import P8Img from "/src/public/img/projects/calculadoraReact-page.png";
 
 const projects = [
     {   
@@ -36,9 +38,9 @@ const projects = [
     {
         "id": 4,
         "image": P4Img,
-        "title": "Netflix" ,
-        "description": "Pagina Elaborada como practica de conocimientos en Html,Css y Javascript",
-        "link": "https://stunning-froyo-fb4a99.netlify.app"
+        "title": "News Homepage" ,
+        "description": "Pagina Elaborada como practica de conocimientos en Html,Css,Javascript y Sass",
+        "link": "https://flourishing-taffy-990027.netlify.app/"
     },
     {
         "id": 5,
@@ -53,6 +55,20 @@ const projects = [
         "title": "Frontend-Mentor-Loopstudios" ,
         "description": "Pagina elaborada como practica de conocimientos en Sass",
         "link": "https://james-gamboa.github.io/Frontend-Mentor-Loopstudios-landing-page/"
+    },
+    {
+        "id": 7,
+        "image": P7Img,
+        "title": "Events Site" ,
+        "description": "Pagina elaborada como practica de conocimientos en Javascript",
+        "link": "https://monumental-kringle-6493f0.netlify.app/"
+    },
+    {
+        "id": 8,
+        "image": P8Img,
+        "title": "Calculadora" ,
+        "description": "Curso Practico de React de Proyectos en React de freeCodecamp",
+        "link": "https://voluble-squirrel-2c2897.netlify.app/"
     },
 ]
 
