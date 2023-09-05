@@ -13,14 +13,19 @@ const AboutMe = () => {
           <div className="grid-container">
             <img src={HelloImg} alt="Mi foto" />
             <p>
-              Mi nombre es James Guevara Gamboa, soy un desarrollador que aprovecha 
-              cada día para expandir mis conocimientos y enfrentar desafíos que 
-              pongan a prueba mis habilidades.
+              Mi nombre es James Guevara Gamboa, soy un desarrollador que
+              aprovecha cada día para expandir mis conocimientos y enfrentar
+              desafíos que ponen a prueba mis habilidades.
               <br />
-              <p>Soy Heredia de Costa Rica,actualmente tengo 22 años y estoy en la búsqueda de mi primera experiencia laboral. 
-                Mientras espero que esta oportunidad llegue, me encuentro trabajando mis conocimientos y enfrentandome en  desafíos que pongan a prueba mis habilidades</p>
+              <p>
+                Soy de Costa Rica, actualmente tengo 22 años y estoy en la
+                búsqueda de mi primera experiencia laboral. Mientras espero que
+                esta oportunidad llegue, me encuentro trabajando en mis
+                conocimientos y enfrentándome a desafíos que ponen a prueba mis
+                habilidades.
+              </p>
               <br />
-              <em>Como proxima Meta tengo Aprender sobre desarrollo Movil</em>
+              <em>Como próxima meta, tengo aprender sobre desarrollo móvil.</em>
             </p>
           </div>
         </div>
