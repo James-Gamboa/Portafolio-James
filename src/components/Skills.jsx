@@ -5,8 +5,12 @@ import CssImg from "/src/public/img/icons-language/css.png";
 import JsImg from "/src/public/img/icons-language/javascript.png";
 import MongoImg from "/src/public/img/icons-language/mongo.png";
 import GitImg from "/src/public/img/icons-language/git.png";
-// import SqlImg from "/src/public/img/icons-language/sql-server.png";
+import SqlImg from "/src/public/img/icons-language/sql-server.png";
 import ReactImg from "/src/public/img/icons-language/react.png";
+import NextJsImg from "/src/public/img/icons-language/next-js.png";
+import NodeJsImg from "/src/public/img/icons-language/node-js.jpeg";
+import DrupalImg from "/src/public/img/icons-language/drupal.png";
+import SassImg from "/src/public/img/icons-language/sass.png";
 
 const Skills = () => {
     return(
@@ -26,8 +30,12 @@ const Skills = () => {
                 <img src={JsImg} />
                 <img src={MongoImg} />
                 <img src={GitImg} />
-                {/* <img src={SqlImg} /> */}
+                <img src={SqlImg} />
                 <img src={ReactImg} />
+                <img src={NextJsImg}/>
+                <img src={NodeJsImg}/>
+                <img src={DrupalImg}/>
+                <img src={SassImg}/>
             </div>
         </section>
         </>

@@ -12,6 +12,7 @@ import P5Img from "/src/public/img/projects/conectaCuatro-page.png";
 import P6Img from "/src/public/img/projects/loopstudios-page.png";
 import P7Img from "/src/public/img/projects/events-site-page.png";
 import P8Img from "/src/public/img/projects/calculadoraReact-page.png";
+import P9Img from "/src/public/img/projects/contraluz-page.png";
 
 const projects = [
     {   
@@ -69,6 +70,13 @@ const projects = [
         "title": "Calculadora" ,
         "description": "Curso Practico de React de Proyectos en React de freeCodecamp",
         "link": "https://voluble-squirrel-2c2897.netlify.app/"
+    },
+    {
+        "id": 9,
+        "image": P9Img,
+        "title": "Contraluz" ,
+        "description": "Durante mi proyecto final en el CETAV, colaboré con un cliente real para desarrollar y lanzar un ecommerce de venta de temperas utilizando la plataforma Shopify",
+        "link": "https://contraluzcr.com/"
     },
 ]
 
