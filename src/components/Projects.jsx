@@ -76,7 +76,7 @@ const projects = [
         "image": P9Img,
         "title": "Contraluz" ,
         "description": "Durante mi proyecto final en el CETAV, colaboré con un cliente real para desarrollar y lanzar un ecommerce de venta de temperas utilizando la plataforma Shopify",
-        "link": "https://contraluzcr.com/"
+        "link": "https://www.contraluzcr.com/"
     },
 ]
 
