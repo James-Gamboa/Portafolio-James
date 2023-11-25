@@ -18,7 +18,7 @@ const AboutMe = () => {
               desafíos que ponen a prueba mis habilidades.
               <br />
               <p>
-                Soy de Costa Rica, actualmente tengo 22 años y estoy en la
+                Soy de Costa Rica, actualmente tengo 23 años y estoy en la
                 búsqueda de mi primera experiencia laboral. Mientras espero que
                 esta oportunidad llegue, me encuentro trabajando en mis
                 conocimientos y enfrentándome a desafíos que ponen a prueba mis

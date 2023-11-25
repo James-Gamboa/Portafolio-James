@@ -11,6 +11,7 @@ import NextJsImg from "/src/public/img/icons-language/next-js.png";
 import NodeJsImg from "/src/public/img/icons-language/node-js.jpeg";
 import DrupalImg from "/src/public/img/icons-language/drupal.png";
 import SassImg from "/src/public/img/icons-language/sass.png";
+import ShopifyImg from "/src/public/img/icons-language/shopify.png";
 
 const Skills = () => {
     return(
@@ -36,6 +37,7 @@ const Skills = () => {
                 <img src={NodeJsImg}/>
                 <img src={DrupalImg}/>
                 <img src={SassImg}/>
+                <img src={ShopifyImg}/>
             </div>
         </section>
         </>
